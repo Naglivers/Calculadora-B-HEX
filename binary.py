@@ -27,4 +27,7 @@ b_1 = Button(corpo_frame, text='1', width=11, height=2, bg=cor5)
 b_1.place(x=0, y=0)
 
 
+# https://www.youtube.com/watch?v=i24MxljM-Bw
+# base pra janela
+
 janela.mainloop()
