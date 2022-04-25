@@ -59,12 +59,15 @@ def clean():
 
 #botao
 
-b_C = Button(corpo_frame, command= clean, text='C', width=11, height=2, font=('Ivy 13 bold'), bg=cor5, relief=RAISED, overrelief=RIDGE)
+b_C = Button(corpo_frame, command= clean, text='C', width=5, height=2, font=('Ivy 13 bold'), bg=cor5, relief=RAISED, overrelief=RIDGE)
 b_C.place(x=0, y=0)
+b_DEC = Button(corpo_frame, command= lambda: entrar_valores('.'), text='.', width=5, height=2, font=('Ivy 13 bold'), bg=cor5, relief=RAISED, overrelief=RIDGE)
+b_DEC.place(x=59, y=0)
 b_BIN = Button(corpo_frame, command= lambda: entrar_valores('bin'), text='BIN', width=5, height=2, font=('Ivy 13 bold'), bg=cor5, relief=RAISED, overrelief=RIDGE)
 b_BIN.place(x=118, y=0)
 b_DEC = Button(corpo_frame, command= lambda: entrar_valores('0b'), text='DEC', width=5, height=2, font=('Ivy 13 bold'), bg=cor5, relief=RAISED, overrelief=RIDGE)
 b_DEC.place(x=177, y=0)
+
 
 b_9 = Button(corpo_frame, command= lambda: entrar_valores('9'), text='9', width=5, height=2, font=('Ivy 13 bold'), bg=cor4, relief=RAISED, overrelief=RIDGE)
 b_9.place(x=0, y=52)
